@@ -1,0 +1,105 @@
+/********* HOMEPAGE CSS STYLES *********/
+
+body {
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 70px;
+}
+
+nav {
+    font-family: 'DM Serif Display', serif;
+    font-size: large;
+}
+
+.intro {
+    float: right;
+    margin-top: 150px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+
+.intro-two {
+    float: right;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+}
+
+.purple {
+    color: rgb(102, 52, 240);
+    text-shadow: 2px 1px 4px rgb(0, 0, 0);
+}
+
+.purple-two {
+    color: rgb(102, 52, 240);
+    text-shadow: 2px 0px 1px rgb(43, 0, 199);
+}
+
+.index-background {
+    background-image: url(../images/flower.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 12%;
+}
+
+.dropdown-menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*** BACKGROUND IMG FOR ALL PAGES EXCEPT HOME ***/
+.contact-background {
+    background-image: url(../images/pattern.jpg);
+    background-repeat: no-repeat;
+}
+
+/********** ABOUT PAGE STYLES **********/
+.container.about {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.title-about {
+    font-family: 'DM Serif Display', serif;
+    text-shadow: 2px 1px 3px rgb(121, 121, 121);
+}
+
+.font {
+    font-family: 'Cabin', sans-serif;
+}
+
+/********** CONTACT PAGE STYLES **********/
+#contact {
+    margin-top: 70px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#contact h1 {
+    font-family: 'DM Serif Display', serif;
+    text-shadow: 2px 1px 3px rgb(121, 121, 121);
+}
+
+button.btn.btn-primary {
+    background-color: rgb(102, 52, 240);
+    border-color: rgb(102, 52, 240);
+}
+
+::before {
+    color: white;
+}
+
+/********** WORKS/PORTFOLIO CSS STYLES **********/
+.title {
+    font-family: 'DM Serif Display', serif;
+    text-shadow: 2px 1px 3px rgb(121, 121, 121);
+    padding-top: 30px;
+}
+
+.img-thumbnail.green {
+    padding-bottom: 27px;
+}
+
+.works {
+    font-family: 'Cabin', sans-serif;
+}
